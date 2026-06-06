@@ -1,0 +1,21 @@
+{
+  "name": "@hcai/ui-context",
+  "version": "0.1.0",
+  "description": "Right-brain layer: golden-ratio scales and narrative summaries to keep humans calm and in context.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

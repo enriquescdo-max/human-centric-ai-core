@@ -1,0 +1,23 @@
+{
+  "name": "@hcai/provenance-ledger",
+  "version": "0.1.0",
+  "description": "Append-only, hash-chained audit log and content watermarking for AI systems.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "license": "MIT",
+  "files": [
+    "dist",
+    "supabase"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}

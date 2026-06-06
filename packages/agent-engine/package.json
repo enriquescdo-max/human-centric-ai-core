@@ -1,0 +1,24 @@
+{
+  "name": "@hcai/agent-engine",
+  "version": "0.1.0",
+  "description": "Left-brain layer: narrow workers that propose actions but cannot execute them.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@hcai/ethical-middleware": "*"
+  },
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "human-centric-ai-core",
+  "private": true,
+  "version": "0.1.0",
+  "description": "An open-source foundation for autonomous AI systems that keep the human in the loop, by design.",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "demo": "node apps/demo/run.mjs"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0",
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  },
+  "license": "MIT",
+  "packageManager": "npm@10.0.0"
+}
